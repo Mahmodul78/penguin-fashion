@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #FFFBF0;
+}
+
+.navbar-brand img {
+    width: 300px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.home-1 h2 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 87px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.homeTitle-1 {
+    color: #FABE4C;
+}
+
+.homeTitle-2 {
+    color: #363958;
+}
+
+.home-1 p {
+    color: #3E3E3E;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnHome {
+    width: 170px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border: none;
+    border-radius: 11px;
+}
+
+.btnHome img {
+    width: 24px;
+}
+
+.woman .col-md-4 .cardImg img,
+.man .col-md-4 .cardImg img {
+    width: 250px;
+    padding: 23px;
+}
+
+.womanHeading h2,
+.manHeading h2 {
+    color: #363958;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+
+}
+
+#main .col-md-4 {
+    width: 380px;
+    Offset: 0px, 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 10px 30px 0px #0000000D;
+    border-radius: 17px;
+}
+
+.cardImg {
+    width: 350px;
+    background: #F1F1F1;
+    margin: auto;
+    text-align: center;
+    margin-top: 12px;
+    border-radius: 17px;
+}
+
+.cardTitle,
+.cardfooter {
+    width: 327px;
+    margin: auto;
+}
+
+.cardTitle h3 {
+    color: #363958;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.cardTitle p {
+    color: #3E3E3E;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.cardPrice {
+    color: #FABE4C;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+
+#footer .card.mb-3 {
+    border: none;
+    box-shadow: 0px 10px 30px 0px #0000000D;
+    background: #FFFFFF;
+    border-radius: 11px;
+}
+
+#footer .card-body .card-title {
+    color: #363958;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+#footer .card-body .card-text {
+    color: #3E3E3E;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 11px;
+}
+
+
+
+/*----------------------------------------------- 
+        Media Query Start 
+-----------------------------------------------*/
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    #main .cardTitle h3 {
+        font-size: 23px;
+    }
+
+    #main .cardPrice {
+        font-size: 35px;
+    }
+
+    #main .woman .btnHome,
+    #main .woman .btnHome {
+        padding: 6px 0;
+    }
+
+    #main .col-md-4 {
+        width: 32%;
+    }
+
+    .cardImg {
+        width: 100%;
+    }
+
+    .cardTitle,
+    .cardfooter {
+        width: 90%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #header .homeMain .modelImg {
+        width: 70%;
+    }
+
+    .home-1 h2 {
+        font-size: 67px;
+        line-height: 70px;
+    }
+
+    #main .col-md-4 {
+        width: 48%;
+        margin-bottom: 27px;
+    }
+
+    #main .thirdJacket {
+        margin: auto;
+    }
+
+    .cardImg {
+        width: 100%;
+    }
+
+    .cardTitle,
+    .cardfooter {
+        width: 90%
+    }
+
+    #footer .card-body .card-title {
+        font-size: 22px;
+    }
+
+    #footer .card-body .card-text {
+        font-size: 11px;
+        line-height: 9px;
+    }
+
+    #footer .col-sm-12.col-md-6.footerRight {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #header .homeMain .modelImg {
+        width: 100%;
+    }
+
+    .navbar-brand img {
+        width: 217px;
+    }
+
+    .manHeading.pb-3,
+    .womanHeading.pb-3 {
+        text-align: center;
+    }
+
+    #main .col-md-4 {
+        margin: auto;
+        margin-bottom: 27px;
+    }
+
+    .col-sm-12.col-md-6.modelImg {
+        margin-top: 37px;
+    }
+
+    .homeMain {
+        display: block !important;
+    }
+
+    .home-1 h2 {
+        font-size: 53px;
+        line-height: 57px;
+    }
+
+    .home-1 p {
+        font-size: 14px;
+    }
+
+    .homeMain .modelImg img {
+        width: 100%;
+    }
+
+    #main .col-md-4 {
+        width: 95%;
+    }
+
+    #main .woman .btnHome,
+    #main .woman .btnHome {
+        padding: 10px 0;
+    }
+
+    .cardImg {
+        width: 100%;
+    }
+
+    .cardTitle,
+    .cardfooter {
+        width: 100%;
+    }
+
+    #footer .col-md-4.text-center {
+        width: 60%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #footer .card-body {
+        text-align: center;
+    }
+
+    #footer .card-body .card-text {
+        font-size: 14px;
+    }
+
+    #footer .card.mb-3 {
+        box-shadow: 0px 10px 30px 0px #0000000D;
+    }
+
+    .footer.container.d-flex {
+        flex-direction: column-reverse;
+    }
+
+    #footer .col-sm-12.col-md-6.footerRight {
+        margin-bottom: 47px;
+    }
+}
